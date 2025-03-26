@@ -216,3 +216,23 @@
 	public static java.sql.Connection java.sql.DriverManager.getConnection(java.lang.String,java.util.Properties) throws java.sql.SQLException
 	public static java.sql.Connection java.sql.DriverManager.getConnection(java.lang.String,java.lang.String,java.lang.String) throws java.sql.SQLException
 
+2025-03-24 09:05:01,233 - INFO - Executing query: SELECT * FROM trnrfidmap
+2025-03-24 09:05:08,183 - INFO - Executing query: SELECT ID,CARDNO FROM trnquotacustomer WHERE processed = 1
+2025-03-24 09:05:08,891 - INFO - Executing query: SELECT * FROM trnrfidmap
+2025-03-24 09:05:14,399 - INFO - Executing query: SELECT * FROM trnrfidmap
+2025-03-24 09:05:14,470 - INFO - Release button clicked
+2025-03-24 09:05:14,470 - INFO - Update ID entered: 80
+2025-03-24 09:05:14,470 - INFO - Executing update query: UPDATE trnquotacustomer SET processed = 0 WHERE id = 80
+2025-03-24 09:05:14,470 - INFO - Attempting to execute update query
+2025-03-24 09:05:15,522 - INFO - Executing query: SELECT * FROM trnrfidmap
+2025-03-24 09:05:17,444 - INFO - Executing query: SELECT ID,CARDNO FROM trnquotacustomer WHERE processed = 1
+2025-03-24 09:05:18,295 - INFO - Executing query: SELECT * FROM trnrfidmap
+2025-03-24 09:05:48,766 - INFO - Executing query: SELECT * FROM trnrfidmap
+2025-03-24 10:16:55,928 - INFO - Executing query: SELECT * FROM trnrfidmap
+2025-03-24 10:16:57,291 - INFO - Executing query: SELECT ID,CARDNO FROM trnquotacustomer WHERE processed = 1
+2025-03-24 10:16:58,295 - INFO - Executing query: SELECT * FROM trnrfidmap
+2025-03-24 10:17:23,626 - INFO - Executing query: SELECT value AS location FROM trnsitedetail where id = 1
+2025-03-24 10:17:28,037 - INFO - Executing query: SELECT cardno AS NOPOL from trnquotacustomer
+2025-03-24 10:18:16,358 - INFO - Executing query: SELECT * FROM trnrfidmap
+2025-03-24 10:18:34,680 - INFO - Executing query: SELECT ID,CARDNO FROM trnquotacustomer WHERE processed = 1
+2025-03-24 10:18:35,795 - INFO - Executing query: SELECT * FROM trnrfidmap

@@ -85,6 +85,8 @@ with st.sidebar:
         "Muat Data Nopol Kendaraan"
     ])
 
+    st.header("Menu Check Nopol Error")  # Menampilkan header menu query
+
     update_id = st.text_input("Masukkan ID untuk update untuk merelease nopol :")
     update_button_enabled = False  # Initialize button state
 
